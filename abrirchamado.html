@@ -24,38 +24,36 @@
     </nav>
 
     <div>
-        <h1>Chamados: </h1>
+        <h1>Chamados:</h1>
         <hr><br>
     </div>
-    <div>
-        <form action="" method="post" class="container">
+    <div class="container">
+        <form action="" method="post" >
             <div>
-                <label>
-                    NOME DO FUNCIONÁRIO: <input type="text" placeholder="informe seu nome...">
+                <label for="fname">
+                    NOME DO FUNCIONÁRIO: <input type="text" id="fname" placeholder= "Informe seu nome...">
                 </label>
             </div>
             <div>
-                <label>
-                    ASSUNTO: <input type="text" placeholder="informe o assunto...">
+                <label for="assunto">
+                    ASSUNTO: <input type="text" id= "assunto" placeholder="informe o assunto...">
                 </label>
             </div>
             <div>
-                <label>
+                <label for="Cargos">
                     CARGO: <br>
-                    <select name="Cargos" id="car">
-                        <option value="">Administrativa</option>
-                        <option value="">Gerencial</option>
-                        <option value="">Operacional</option>
+                    <select name="Cargos" id="Cargos">
+                        <option value="Administrativa">Administrativa</option>
+                        <option value="Gerencial">Gerencial</option>
+                        <option value="Operacional">Operacional</option>
                     </select>
                 </label>
             </div>
             <div>
-                <label>
-                    DETALHAMENTO: <input type="text" placeholder="complemento do chamado">
+                <label for="Detalhamento">
+                    DETALHAMENTO:<textarea id="Detalhamento" name="Detalhamento" placeholder="Complete o chamado..." style="height: 200px"></textarea>
+                    <input type="submit" value="ENVIAR!">
                 </label>
-            </div>
-            <div>
-                <button type="button">ENVIAR!</button>
             </div>
         </form>
     </div>
