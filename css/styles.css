@@ -52,8 +52,9 @@ th, td {
     text-align: center;
     padding: 16px;
 }
-th: :first-child, td: :first-child {
-    text-aling:left
+
+th:first-child, td:first-child {
+    text-align:left
 }
 
 tr:nth-child(even){
@@ -78,11 +79,12 @@ tr:nth-child(even){
 }
 
 .centro {
+    float: center;
+    text-align: center;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     /*width: 50%;*/
 }
+
 .footer {
     position: relative;
     left: 0;
@@ -96,7 +98,18 @@ tr:nth-child(even){
     text-decoration-style: solid;
     color: red;
 }
+
 /* Texto */
+h1, h2{
+    float: center;
+    text-align: center;
+    display: block;
+}
+h3{
+    float: center;
+    text-align: center;
+    display: inline;
+}
 p {
     text-indent: 50px;
     text-align: justify;
@@ -153,4 +166,5 @@ input[type=number], select, textarea {
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
-    resize: vertical;
+    resize: vertical; 
+}
