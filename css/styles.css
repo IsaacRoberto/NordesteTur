@@ -8,6 +8,7 @@
 
 body{
     font-family: 'roboto';
+    background-color: #DCDCDC;
 }
 /* NavBar */
 nav{
@@ -78,28 +79,39 @@ tr:nth-child(even){
     margin: 0 auto;
 }
 
+.ajuste{
+    padding-left: 150px;
+}
+
 .centro {
     float: center;
     text-align: center;
     display: block;
-    /*width: 50%;*/
 }
 
-.footer {
-    position: relative;
-    left: 0;
-    height: 100px;
-    width: 100%;
-    background-color: #473b82;
-    text-align: center;
+/* roda pé */
+
+.main-title {
+    font-size: 30px;
+
 }
+.contato {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #DCDCDC;
+}
+
+.contact-title {
+    font-weight: bold;
+    color: black;
+}
+/* Texto */
 .title-table{
     text-align: center;
     text-decoration-style: solid;
     color: red;
 }
 
-/* Texto */
 h1, h2{
     float: center;
     text-align: center;
@@ -108,7 +120,7 @@ h1, h2{
 h3{
     float: center;
     text-align: center;
-    display: inline;
+    display: block;
 }
 p {
     text-indent: 50px;
@@ -168,3 +180,6 @@ input[type=number], select, textarea {
     margin-bottom: 16px;
     resize: vertical; 
 }
+
+
+  
